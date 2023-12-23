@@ -1,4 +1,4 @@
-/*
+/ 
 html5-preloader :: EXTENSION- Rotary graphical feedback plugin.
 */
 
@@ -39,3 +39,4 @@ html5Preloader.prototype.drawRotary = function(ctx, w, h)
 	ctx.restore();
 	this.rotaryGraph.angle = (this.rotaryGraph.angle + 1) % 20;
 };
+ 
